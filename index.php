@@ -11,9 +11,6 @@
 		<div id="fond">
 			
 		</div>
-<!-- 		<div id="fond1">
-			
-		</div> -->
 	</div>
 	<nav>
 		<div class="nav-wrapper">
@@ -26,7 +23,7 @@
 			</ul>
 		</div>
 	</nav>
-	<div class="container">
+	<div class="container homecontainer">
 	    <div class="row valign-wrapper texthome">
 			<div class="col s6">
 				<h1 class="white-text">Simple, safe & beautiful.</h1>
@@ -37,14 +34,16 @@
 				<img class="responsive-img" src="images/iPhone7Silver.png">
 			</div>
 		</div>
+	</div>
+	<div class="container">
 		<div class="row valign-wrapper">
-			<div class="col s3">
+			<div class="col s6 l3">
 				<img class="responsive-img z-depth-4" id="divoneimageone" src="images/Contactscopy.png">
 			</div>
-			<div class="col s3">
+			<div class="col s6 l3">
 				<img class="responsive-img z-depth-4" id="divoneimagetwo" src="images/Contactscopy.png">
 			</div>
-			<div class="col s6">
+			<div class="col s12 l6">
 				<h2>Easy Messaging</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -52,74 +51,82 @@
 				consequat.</p>
 			</div>
 		</div>
+	</div>
+	<div class="container">
 		<div class="row valign-wrapper">
-			<div class="col s6">
+			<div class="col s12 l6">
 				<h2>Keep in touch.</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat.</p>
 			</div>
-			<div class="col s3">
+			<div class="col s6 l3">
 				<img class="responsive-img" id="divtwoimageone" src="images/Contactscopy.png">
 			</div>
-			<div class="col s3">
+			<div class="col s6 l3">
 				<img class="responsive-img z-depth-4" id="divtwoimagetwo" src="images/Contactscopy.png">
 			</div>
 		</div>
+	</div>
+	<div class="container">
 		<div class="row">
 			<div class="col s12">
 				<h2 class="center-align">What people say.</h2>
 			</div>
-			<div class="col s4 card-panel hoverable">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-				<p>lol</p>
-			</div>
-			<div class="col s4 card-panel hoverable">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-				<p>lol</p>
-			</div>
-			<div class="col s4 card-panel hoverable">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-				<p>lol</p>
-			</div>
-	            <div class="col s1">
+			<div class="col s12 m4">
+				<div class="col s12 card-panel hoverable">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+					<p><strong>Booking.com</strong></p>
+				</div>
+	            <div class="col s2 m4">
 	              <img src="images/Warstwa787.jpg" alt="" class="circle responsive-img">
 	            </div>
-	            <div class="col s3">
+	            <div class="col s10 m8">
 	              <p>John doe</p>
-	              <p>lol</p>
-	            </div>
-			<div class="col s4">
-	            <div class="col s2">
-	              <img src="images/Warstwa787.jpg" alt="" class="circle responsive-img">
-	            </div>
-	            <div class="col s10">
-	              <p>John doe</p>
-	              <p>lol</p>
+	              <p>CEO</p>
 	            </div>
 			</div>
-			<div class="col s4">
-	            <div class="col s2">
+			<div class="col s12 m4">
+				<div class="col s12 card-panel hoverable">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+					<p><strong>Airbnb</strong></p>
+				</div>
+	            <div class="col s2 m4">
 	              <img src="images/Warstwa787.jpg" alt="" class="circle responsive-img">
 	            </div>
-	            <div class="col s10">
+	            <div class="col s10 m8">
 	              <p>John doe</p>
-	              <p>lol</p>
+	              <p>CEO</p>
+	            </div>
+			</div>
+			<div class="col s12 m4">
+				<div class="col s12 card-panel hoverable">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+					<p><strong>Symu.co</strong></p>
+				</div>
+	            <div class="col s2 m4">
+	              <img src="images/Warstwa787.jpg" alt="" class="circle responsive-img">
+	            </div>
+	            <div class="col s10 m8">
+	              <p>John doe</p>
+	              <p>CEO</p>
 	            </div>
 			</div>
 		</div>
+	</div>
+	<div class="container divphone">
 		<div class="row">
-			<div class="col s4">
+			<div class="col s12 l5">
 				<div class="col s10">
 					<p>Start conversation</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut</p>
 				</div>
-				<div class="col s2" style="background-color: black;">
+				<div class="col s2">
 					<img class="responsive-img" src="images/Vector-Smart-Object3.png">
 				</div>
 				<div class="col s10">
@@ -127,63 +134,71 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut</p>
 				</div>
-				<div class="col s2" style="background-color: black;">
-					<img class="responsive-img" src="images/Vector-Smart-Object3.png">
+				<div class="col s2">
+					<img class="responsive-img" src="images/Vector-Smart-Object4.png">
 				</div>
 			</div>	
-			<div class="col s4">
-				<img class="responsive-img" src="images/iPhone7Silver1copy.png">
+			<div class="col s12 l2 divphonevideo">
+				<img class="responsive-img phonevideo" src="images/iPhone7Silver1copy.png">
 			</div>
-			<div class="col s4">
-				<div class="col s10">
-					<p>Start conversation</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut</p>
-				</div>
-				<div class="col s2" style="background-color: black;">
-					<img class="responsive-img" src="images/Vector-Smart-Object3.png">
+			<div class="col s12 l5">
+				<div class="col s2">
+					<img class="responsive-img" src="images/Vector-Smart-Object.png">
 				</div>
 				<div class="col s10">
 					<p>Start conversation</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut</p>
 				</div>
-				<div class="col s2" style="background-color: black;">
-					<img class="responsive-img" src="images/Vector-Smart-Object3.png">
+				<div class="col s2">
+					<img class="responsive-img" src="images/Vector-Smart-Object2.png">
 				</div>
+				<div class="col s10">
+					<p>Start conversation</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut</p>
+				</div>
+			</div>
+			<div class="col s12 backgroundphone">
+				
 			</div>
 		</div>
+	</div>
+	<div class="container">
 		<div class="row center-align">
 			<h2>Subscribe to our newsletter.</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.</p>
+			<div class="col s12 relative">
+				<input class="inputtext grey lighten-4" type="text" name="" placeholder="Your email adress">
+				<a class="waves-effect waves-light btn white inputbutton">Subscribe</a>
+			</div>
 		</div>
-		<div class="row center-align">
-			<img class="responsive-img" src="images/Vector-Smart-Object3.png" style="background-color: red;">
+	</div>
+	<div class="container">
+		<div class="row center-align divdowload">
+			<div class="divh">
+				<p>H</p>
+			</div>
 			<h3>Dowload the app.</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat.</p>
-			<img class="responsive-img" src="images/Layer2.png">
+			<img class="responsive-img dowloadimg" src="images/Layer2.png">
 		</div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <a href="#!">About</a>
+        <a href="#!">Faq</a>
+        <a href="#!">Support</a>
+        <a href="#!">Blog</a>
+        <a href="#!">Dowload</a>
+      </div>
+    </footer>
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

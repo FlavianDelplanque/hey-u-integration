@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+* {
+	font-family: "Lato", sans-serif;
+}
 :root {
 	--orange : #E8402D;
 	--rose: #d70645;
 	--grisfoncer : #363636;
 	--grisclair : #808080;
+}
+strong {
+	color: var(--rose);
 }
 nav {
 	background-color: transparent;
@@ -42,9 +49,24 @@ nav {
 }
 p {
 	color: var(--grisclair);
+	font-size: 2vmin;
 }
 h2 {
 	color: var(--grisfoncer);
+}
+.bgphone {
+	background-color: red;
+	width: 100% !important;
+	max-width: 100% !important;
+}
+.bgphone .row {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.phonevideo {
+    max-width: 130% !important;
+    margin-left: -15%;
+    margin-top: -27%;
 }
 
 #divoneimageone {
@@ -63,11 +85,98 @@ h2 {
 	margin-top: 35%;
 	margin-left: -83.5%;
 }
+.dowloadimg {
+	max-width: 20% !important;
+}
 
 
+@media only screen and (max-width: 600px) {
+	.valign-wrapper {
+		display: block;
+		align-items: initial;
+	}
+	#divoneimageone {
+		margin-top: 0;
+	}
+	#divtwoimageone {
+		margin-top: 15%;
+	}
+	#divtwoimagetwo {
+		margin-top: 45%;
+	}
+}
 
 
+@media only screen and (max-width: 992px) {
+	.phonevideo {
+		max-width: 40% !important;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.divphonevideo {
+		display: flex;
+		justify-content: center;
+	}
+	.texthome a {
+		margin-top: 0;
+	}
+}
 
+.inputtext {
+	border-radius: 100px !important;
+	height: 6vmin !important;
+	border: 0px !important;
+}
+.inputbutton {
+	border-radius: 50px !important;
+	height: 6vmin;
+	width: 30vmin;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.relative {
+	position: relative;
+}
+
+
+.divdowload {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.divphone {
+	background:linear-gradient(0.0turn, var(--orange), var(--rose));
+}
+.divphone p {
+	color: white;
+}
+.divh {
+	width: 20vmin;
+	height: 20vmin;
+	background:linear-gradient(0.0turn, var(--orange), var(--rose));
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.divh p {
+	color: white;
+	font-size: 10vmin;
+}
+.page-footer {
+	background-color: transparent;
+}
+.footer-copyright {
+	justify-content: flex-start !important;
+}
+.page-footer a {
+	color: var(--grisclair) !important;
+	margin-left: 2.5%;
+}
 /*.fondglobal {
 	position: absolute;
 	overflow: hidden;
